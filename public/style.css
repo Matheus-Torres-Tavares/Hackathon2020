@@ -1,6 +1,7 @@
 * {
   background-color: #f4f1f0;
   font-family: "Montserrat", sans-serif;
+  color: #726d6d;
 }
 
 .nav ul {
@@ -17,16 +18,19 @@
   text-decoration: none;
   color: black;
 }
+
 .angela-about {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .angela-body {
   display: flex;
 
   justify-content: space-between;
 }
+
 .formbox {
   /* background: RGB(240, 128, 128); */
   border-radius: 10%;
@@ -37,6 +41,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 form {
   max-width: 600px;
   text-align: center;
@@ -50,4 +55,10 @@ form {
 #input-submit {
   color: black;
   width: 15%;
+}
+
+.sprinkles {
+  display: flex;
+  justify-content: center;
+
 }
