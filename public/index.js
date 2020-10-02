@@ -1,8 +1,12 @@
 let clicker = document.querySelectorAll('.test')
+for (i = 0; i < clicker.length; i++) {
+    let test = clicker[i];
+    test.onclick = toggleDisplay
+}
 
 
 function toggleDisplay(e) {
-    e.target.querySelector('.test').toggle('display')
+    console.log(e.target.parentElement.querySelector('.display'), this)
+    e.target.querySelector('.display').toggle('display')
 }
 
-clicker.onclick = toggleDisplay
