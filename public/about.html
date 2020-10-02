@@ -1,19 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <div class="nav">
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="./works.html">works</a></li>
+      <li><a href="./sprinkles.html">in memorium</a></li>
+    </ul>
+  </div>
+  <body>
+    <div class="angela-about">
+      <div class="angela-name">
+        <h1>Angela Martin</h1>
+      </div>
+      <div class="angela-body">
+        <article>
+          <img src="./images/angelaaaa.png" />
+        </article>
+        <article>
+          <p>
+            About me: Greetings, Welcome to my portfolio. My name is Angela
+            Noelle Schrute (nee Martin). I’m a senior accountant and head of the
+            Party Planning Committee at Dunder Mifflin paper company in
+            Scranton. I uphold the highest moral standards in any professional
+            setting and will hold all my coworkers accountable. My passions
+            outside of work include my many cats (both living and deceased), my
+            religious morality (praise Jesus) and my husband, who has
+            successfully taken power over the Scranton office as manager.
+          </p>
+        </article>
+      </div>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About</title>
-  <link rel="stylesheet" href="./style.css" />
-</head>
-<div class="nav">
-  <ul>
-    <li><a href="index.html">home</a></li>
-    <li><a href="./works.html">works</a></li>
-    <li><a href="./sprinkles.html">in memorium</a></li>
-  </ul>
-</div>
-<script src="index.js"></script>
+      <section class="formbox">
+        <h1>Contact Me</h1>
+        <form
+          class="cf"
+          action="mailto:r.q.sell@gmail.com"
+          method="POST"
+          enctype="text/plain"
+        >
+          <div>
+            <!-- <label for="name">Name</label> -->
+            <input type="text" name="name" id="input-name" placeholder="Name" />
+            <!-- <label for="Email">Email</label> -->
+            <input
+              type="email"
+              name="email"
+              id="input-email"
+              placeholder="Email"
+            />
 
+            <!-- <label for="subject">Subject</label> -->
+            <input
+              type="text"
+              name="subject"
+              id="input-subject"
+              placeholder="Subject"
+            />
+          </div>
+          <textarea
+            name="message"
+            type="text"
+            id="input-message"
+            placeholder="Message"
+          ></textarea>
+
+          <input type="submit" value="Submit" id="input-submit" />
+        </form>
+      </section>
+    </div>
+  </body>
 </html>
