@@ -7,6 +7,6 @@ for (i = 0; i < clicker.length; i++) {
 
 function toggleDisplay(e) {
     console.log(e.target.parentElement.querySelector('.display'), this)
-    e.target.querySelector('.display').toggle('display')
+    e.target.querySelector('.display').toggle('.display')
 }
 

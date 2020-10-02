@@ -1,16 +1,23 @@
 * {
   background-color: #f4f1f0;
   font-family: "Montserrat", sans-serif;
+  color: #726d6d;
 }
 .nav {
   display: flex;
   justify-content: space-between;
 }
+
 .navcon {
   display: flex;
   justify-content: space-between;
 }
-
+.introcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .nav li {
   list-style-type: none;
 }
@@ -19,17 +26,20 @@
   text-decoration: none;
   color: black;
 }
+
 .angela-about {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .angela-body {
   display: flex;
 
   justify-content: space-between;
   align-items: center;
 }
+
 .formbox {
   /* background: RGB(240, 128, 128); */
   border-radius: 10%;
@@ -40,6 +50,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 form {
   max-width: 600px;
   text-align: center;
@@ -53,4 +64,10 @@ form {
 #input-submit {
   color: black;
   width: 15%;
+}
+
+.sprinkles {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
